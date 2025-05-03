@@ -1,0 +1,9 @@
+[package]
+name = "timestamp-prefix"
+version = "1.0.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.83"
+clap = { version = "4.3.5", features = ["derive", "env", "unicode"] }
+time = { version = "0.3", features = ["macros", "formatting", "local-offset"] }
